@@ -1,11 +1,11 @@
 let resumeData = {
   imagebaseurl: "https://rbhatia46.github.io/",
   name: "Vignesh Waran",
-  role: "Senior Software Enginer",
+  role: "Lead Frontend Engineer",
   linkedinId: "vigneshwaran9494",
   skypeid: "wcvignesh",
   roleDescription:
-    "About 4+ years of experience in IT services in the roles of software programmer, have expertise in open source as well as commercial platforms, Offering excellent programming and analytic skills ",
+    "With 9 years of experience in IT services, I specialize in mobile app development using both native and hybrid technologies. My expertise includes React Native, Kotlin, and scalable cross-platform solutions.",
   socialLinks: [
     {
       name: "linkedin",
@@ -24,17 +24,16 @@ let resumeData = {
     }
   ],
   aboutme:
-    "currently i am working as a senior software engineer at Optisol business solutions, have 4+ experience in mobile application development field. have developed mobile apps in various streams and different frameworks, my skills are java , kotlin, React Native and Flutter",
+    "I am currently working as a Lead Frontend Engineer, focusing on React Native and mobile app development. With 9 years of experience in the field, I have worked on a variety of applications using technologies like Kotlin, Java, React Native, and Flutter. I am skilled in designing, developing, and scaling innovative solutions.",
   address: "India",
   website: "wcvignesh@gmail.com",
   education: [
     {
-      UniversityName: "Anna university",
-      specialization:
-        "Bachelor Of Engineering (Computer Science and Engineering)",
+      UniversityName: "Anna University",
+      specialization: "Bachelor Of Engineering (Computer Science and Engineering)",
       MonthOfPassing: "June",
       YearOfPassing: "2015",
-      Achievements: "Some Achievements"
+      Achievements: "Graduated with a strong foundation in computer science principles."
     }
   ],
   work: [
@@ -42,36 +41,44 @@ let resumeData = {
       CompanyName: "Elysium Technologies Pvt Ltd",
       specialization: "Android Developer",
       MonthOfLeaving: "July 2015 - July 2016",
-      YearOfLeaving: " ",
+      YearOfLeaving: "",
       Achievements:
-        "Design and develop android applications with core functionalities and rest apis"
+        "Designed and developed Android applications with core functionalities and REST APIs."
     },
     {
       CompanyName: "Optisol Business Solutions Pvt Ltd",
       specialization: "Software Engineer",
       MonthOfLeaving: "July 2016 - July 2018",
-      YearOfLeaving: " ",
+      YearOfLeaving: "",
       Achievements:
-        " Conceptualize, develop, and test native Android applications, including UI, core functionality, and third-party SDKS . Architect Android applications with MVP pattern and dependency injection using Dagger"
+        "Conceptualized, developed, and tested native Android applications, including UI, core functionality, and third-party SDKs. Architected Android applications with MVP pattern and dependency injection using Dagger."
     },
     {
       CompanyName: "Optisol Business Solutions Pvt Ltd",
       specialization: "Lead Engineer",
       MonthOfLeaving: "July 2018 - April 2019",
-      YearOfLeaving: " ",
+      YearOfLeaving: "",
       Achievements:
-        "Build 10+ applications in android native and cross platform applications using react native"
+        "Built over 10 applications using Android native and cross-platform technologies like React Native."
     },
     {
       CompanyName: "Optisol Business Solutions Pvt Ltd",
       specialization: "Senior Lead Engineer",
-      MonthOfLeaving: "April 2019 - Present",
-      YearOfLeaving: " ",
+      MonthOfLeaving: "April 2019 - March 2022",
+      YearOfLeaving: "",
       Achievements:
-        "create and maintain the react native applications using cutting edge technologies and lead a react native team of 4 members "
+        "Created and maintained React Native applications using cutting-edge technologies. Led a React Native team of 4 members."
+    },
+    {
+      CompanyName: "Knocksense Media Pvt Ltd",
+      specialization: "Senior Frontend Developer",
+      MonthOfLeaving: "March 2022 - Present",
+      YearOfLeaving: "",
+      Achievements:
+        "Developed and managed complete products, including event booking, media, and news-sharing apps. Focused on React Native and web app development using React."
     }
   ],
-  skillsDescription: "",
+  skillsDescription: "Technical Skills",
   skills: [
     {
       skillname: "Java"
@@ -80,26 +87,25 @@ let resumeData = {
       skillname: "Kotlin"
     },
     {
-      skillname: "React-Native"
+      skillname: "Swift"
     },
     {
-      skillname: "Flutter"
+      skillname: "Dart (Flutter)"
     },
     {
-      skillname: "Ionic"
+      skillname: "React Native"
+    },
+    {
+      skillname: "AngularJS"
+    },
+    {
+      skillname: "HTML/TypeScript"
+    },
+    {
+      skillname: "PostgreSQL/MongoDB"
     }
   ],
   portfolio: [
-    {
-      name: "LitPic-SDK",
-      description: "React Native",
-      imgurl: "images/portfolio/origami.jpg"
-    },
-    {
-      name: "Swift Motion",
-      description: "React Native",
-      imgurl: "images/portfolio/origami.jpg"
-    },
     {
       name: "Beacon Emergency Dispatch",
       description: "React Native",
@@ -116,39 +122,24 @@ let resumeData = {
       imgurl: "images/portfolio/origami.jpg"
     },
     {
-      name: "My ALAZEN-HR",
-      description: "Android",
+      name: "Knocksense News App",
+      description: "React Native",
       imgurl: "images/portfolio/origami.jpg"
     },
     {
-      name: "Skynet",
-      description: "Android",
-      imgurl: "images/portfolio/origami.jpg"
-    },
-    {
-      name: "Smilables",
-      description: "Android",
-      imgurl: "images/portfolio/origami.jpg"
-    },
-    {
-      name: "Realfire",
-      description: "Android",
-      imgurl: "images/portfolio/origami.jpg"
-    },
-    {
-      name: "Instance App",
-      description: "Android",
+      name: "Short Video Maker App",
+      description: "Android/React Native",
       imgurl: "images/portfolio/origami.jpg"
     }
   ],
   testimonials: [
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "An exceptional developer with outstanding skills in mobile app development.",
+      name: "John Doe, Senior Manager"
     },
     {
-      description: "This is a sample testimonial",
-      name: "Some technical guy"
+      description: "Highly recommended for innovative and scalable mobile solutions.",
+      name: "Jane Smith, Project Lead"
     }
   ]
 };
