@@ -64,27 +64,49 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+             
+   				<table className="skills" style={{ borderCollapse: 'collapse', width: '100%' }}>
+                  <thead>
+                    <tr>
+                      <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Category</th>
+                      <th style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Skills</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Languages</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Java, Kotlin, Swift, Dart (Flutter)</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Mobile Technologies</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Android, React Native, iOS, Flutter</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Client-Side Scripting</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>JavaScript, TypeScript, HTML, AngularJS, React</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Databases</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>SQLite, Realm, MySQL, MongoDB, PostgreSQL</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Operating Systems</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>macOS, Linux</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Frameworks</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Ionic, Cordova</td>
+                    </tr>
+                    <tr>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>IDEs</td>
+                      <td style={{ border: '1px solid #ddd', padding: '8px', textAlign: 'left' }}>Android Studio, Xcode, Visual Studio Code</td>
+                    </tr>
+                  </tbody>
+                </table>
 
-   				<div className="bars">
+   				 
 
-   				   <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
-                      </li>
-                    )
-                  })
-                }
-
-   					</ul>
-
-   				</div>
+   		
 
    			</div>
 
